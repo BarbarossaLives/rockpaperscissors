@@ -1,0 +1,51 @@
+body{
+    margin:0 auto;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;   
+
+}
+.computer{
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: chocolate;
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+
+.player{
+    border: 4px solid black;
+    border-radius: 15px;
+    margin: 5px auto;
+    padding: 5px;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.results{
+    border:4px solid black;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding:0px 30px;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h5{
+    margin:10px auto;
+}
+button{
+    border: 1px solid black;
+    background-color: brown;
+    font-size: 18px;
+
+}

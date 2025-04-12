@@ -7,7 +7,7 @@ let round = 0;
 function getComputerChoice(){
     let compChoice;
     let randChoice = Math.random();
-    console.log(randChoice)
+    console.log(randChoice);
     if (randChoice < .333) {
         compChoice = "rock";
     } else if (randChoice >.333 && randChoice <.666){
@@ -15,14 +15,14 @@ function getComputerChoice(){
     } else{
         compChoice = "scissors";
     }
-    console.log(compChoice)
+    console.log(compChoice);
     return compChoice       
 }
 
 function getHumanChoice(){
     let humanChoice = (prompt("Please enter rock, paper or scissors"));
     humanChoice = humanChoice.toLowerCase();
-    console.log(humanChoice)
+    console.log(humanChoice);
     return humanChoice
 }
 
@@ -58,7 +58,7 @@ function playround(comp,human){
                 console.log("Tie")
             }
         }
-    round += 1
+    /*round += 1*/
 }
 while (round < 11){
     let comp = getComputerChoice();
